@@ -1,3 +1,5 @@
 A formal verification tool that translates Lean theorem proofs into Rust code with constraint-based inverse analysis for GGUF quantized models.
 Instead of solving: f⁻¹(output) = input
 We compute: C(output) = {set of constraints on valid inputs}
+
+Version 1.01 - delete old branchs about ONNX,... Strict focus on GGUF
